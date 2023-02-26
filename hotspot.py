@@ -28,7 +28,7 @@ def check_payment():
     headers = {
         "Content-Type": "application/json",
         "X-CC-Api-Key": api_key,
-        "X-CC-Version": "2018-03-22"
+        "X-CC-Version": "2023-02-22"
     }
     data = {
         "name": "Wireless hotspot access",
